@@ -8,6 +8,7 @@ class DeafGrandma
   until ready_to_quit
     if input == ""
       puts "WHAT?!"
+      input = gets.chomp
     elsif input == input.downcase
       puts "SPEAK UP, KID!"
       input = gets.chomp
